@@ -79,3 +79,28 @@ body {
       margin-top: 140px;
       text-align: center;
   }
+
+  iframe {
+    display: flex;
+    margin: auto;
+  }
+  
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+  .features{
+    display: grid;
+    /*
+    grid-template-columns:  repeat(2,1fr);
+    grid-template-rows: 300px;*/
+    height: 330px;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+  }
